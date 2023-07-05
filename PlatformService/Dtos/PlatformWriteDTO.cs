@@ -2,9 +2,9 @@
 
 namespace PlatformService.Dtos
 {
-    public class PlatformDTO
+    public class PlatformWriteDTO
     {
-        public int Id { get; set; }
+
         [Required]
         [StringLength(maximumLength: 50)]
         public string? Name { get; set; }
@@ -16,5 +16,8 @@ namespace PlatformService.Dtos
 
         [Required]
         public string? Publisher { get; set; }
+
+        [Required]
+        public string? Cost { get; set; }
     }
 }

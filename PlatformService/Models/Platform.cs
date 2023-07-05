@@ -6,7 +6,7 @@ namespace PlatformService.Models
     {
         [Key]
         [Required]
-        public int Id { get; set; }
+        public int? Id { get; set; }
 
         [Required]
         [StringLength(maximumLength:50)]
