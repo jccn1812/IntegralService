@@ -26,6 +26,7 @@
                     new Models.Platform() { Name = "Dot net", SecondName = "eee", Publisher = "Microsoft", Cost = "free" },
                     new Models.Platform() { Name = "Kubernate", SecondName = "fff", Publisher = "Cloud Native", Cost = "free" },
                     new Models.Platform() { Name = "Jc net", SecondName = "ggg",  Publisher = "DevCode", Cost = "free" }
+                    new Models.Platform() { Name = "Atomica", SecondName = "hhh",  Publisher = "DevCode for net", Cost = "free++s" }
                     );
                 context.SaveChanges();
             }
